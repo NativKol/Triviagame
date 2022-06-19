@@ -1,0 +1,78 @@
+﻿  Communicator.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14): message : see previous definition of 'LEN_OF_MESSAGE'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.cpp(52,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.cpp(162,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.cpp(121,6): warning C4101: 'len': unreferenced local variable
+  JsonRequestPacketDeserializer.cpp
+  JsonResponsePacketSerializer.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14): message : see previous definition of 'LEN_OF_MESSAGE'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\JsonResponsePacketSerializer.cpp(107,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LoggedUser.cpp
+  LoginManager.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.cpp(54,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LoginRequestHandler.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14): message : see previous definition of 'LEN_OF_MESSAGE'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+  MenuRequestHandler.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14): message : see previous definition of 'LEN_OF_MESSAGE'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+  Question.cpp
+  RequestHandlerFactory.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23): message : see previous definition of 'LEN_OF_MESSAGE'
+  Room.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Room.cpp(35,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  RoomAdminRequestHandler.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14): message : see previous definition of 'LEN_OF_MESSAGE'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\RoomAdminRequestHandler.cpp(58,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\RoomAdminRequestHandler.cpp(84,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  RoomManager.cpp
+  RoomMemberRequestHandler.cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23): message : see previous definition of 'LEN_OF_MESSAGE'
+  Source .cpp
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(22,1): warning C4005: 'ASCI_TO_INT': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(13): message : see previous definition of 'ASCI_TO_INT'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(23,1): warning C4005: 'LEN_OF_MESSAGE': macro redefinition
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\LoginManager.h(14): message : see previous definition of 'LEN_OF_MESSAGE'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Communicator.h(25,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Source .cpp(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\TriviaServer\Source .cpp(36,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SqliteDatabase.cpp
+  StatisticsManager.cpp
+  WSAInitializer.cpp
+  Generating Code...
+  sqlite.c
+  TriviaServer.vcxproj -> E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaServer\x64\Debug\TriviaServer.exe
