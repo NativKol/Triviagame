@@ -1,0 +1,74 @@
+﻿<Page x:Class="TriviaGraphic.Statistics"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TriviaGraphic"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="920"
+      Title="Statistics">
+
+
+
+    <Border 
+        Margin="10,10,10,10"
+        BorderThickness="1,1,1,1"
+        CornerRadius="25">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.000,0.0" StartPoint="1.200,1.20">
+                <GradientStop Color="#DDEFBB" Offset="0.0"/>
+                <GradientStop Color="#FFF" Offset="0.727"/>
+                <GradientStop Color="#FFEEEE" Offset="0.97"/>
+                <GradientStop Color="#FFF" Offset="0.467"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid HorizontalAlignment="Left" Height="105" Margin="9,19,0,0" VerticalAlignment="Top" Width="880">
+
+            <Grid Height="305" Margin="150,135,150,-335" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ListBox BorderThickness="0" HorizontalAlignment="Left"  Height="305" Margin="10,0,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" Opacity="100">
+                    <Image Source="E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaGraphic\TriviaGraphic\Pictures\gamesPlayed.png" Height="60" Width="60"/>
+                    <Rectangle Height="10" Width="60"/>
+                    <Image Source="E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaGraphic\TriviaGraphic\Pictures\correct_icon.png" Height="60" Width="60"/>
+                    <Rectangle Height="10" Width="60"/>
+                    <Image Source="E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaGraphic\TriviaGraphic\Pictures\wrong_icon.png" Height="60" Width="60"/>
+                    <Rectangle Height="10" Width="60"/>
+                    <Image Source="E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaGraphic\TriviaGraphic\Pictures\time_icon.png" Height="60" Width="60"/>
+                </ListBox>
+                <ListBox BorderThickness="0" HorizontalAlignment="Left" Height="305" Margin="90,0,0,0" VerticalAlignment="Top" Width="155" Background="{x:Null}" Opacity="100">
+                    <Label Content="Games &#xD;&#xA;Played:" Height="65" Width="135" Background="{x:Null}" FontWeight="Bold" FontSize="20" />
+                    <Rectangle Width="20" Height="1"></Rectangle>
+                    <Label Content="Correct&#xD;&#xA;Answers:" Height="70" Width="135" Background="{x:Null}" FontWeight="Bold" FontSize="20" />
+                    <Rectangle Width="20" Height="1"></Rectangle>
+                    <Label Content="Wrong&#xD;&#xA;Answers:" Height="70" Width="135" Background="{x:Null}" FontWeight="Bold" FontSize="20" />
+                    <Label Content="Average &#xD;&#xA;Time:" Height="65" Width="135" Background="{x:Null}" FontWeight="Bold" FontSize="20" />
+
+                </ListBox>
+                <ListBox BorderThickness="0" HorizontalAlignment="Left" Height="305" Margin="295,0,0,0" VerticalAlignment="Top" Width="280" Background="{x:Null}">
+                    <Rectangle Height="15" Width="260"/>
+                    <Label x:Name="GamesPlayed" Content="0" Height="40" Width="260" FontWeight="Bold" FontSize="18"/>
+                    <Rectangle Height="20" Width="260"/>
+                    <Label  x:Name="Correct" Content="0" Height="40" Width="260" FontWeight="Bold" FontSize="18"/>
+                    <Rectangle Height="35" Width="260"/>
+                    <Label x:Name="Wrong" Content="0" Height="40" Width="260" FontWeight="Bold" FontSize="18"/>
+                    <Rectangle Height="25" Width="260"/>
+                    <Label x:Name="AvarageTime" Content="0" Height="40" Width="260" FontWeight="Bold" FontSize="18"/>
+                </ListBox>
+            </Grid>
+            <Border BorderBrush="#000" BorderThickness="1" HorizontalAlignment="Left" Height="61" Margin="168,22,0,0" VerticalAlignment="Top" Width="93"/>
+            <Image Source="E:\cyber\magshimim\Y2\c++\Semester B\trivia_nativ_ido\TriviaGraphic\TriviaGraphic\Pictures\stats_icon.png" Margin="169,23,620,0" VerticalAlignment="Top"/>
+            <Label HorizontalContentAlignment="Center" Content="STATISTICS" Height="91" Margin="266,14,234,0" VerticalAlignment="Top" FontSize="50" FontWeight="Bold"/>
+            <Button BorderBrush="#FFF9E1E1" BorderThickness="3"  FontSize="20" Content="Back" Height="40" Margin="365,465,365,-400" VerticalAlignment="Top" Click="Back_Click" Background="White" FontWeight="Bold"/>
+
+        </Grid>
+
+
+
+    </Border>
+
+</Page>

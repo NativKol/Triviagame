@@ -1,0 +1,42 @@
+﻿<Page x:Class="TriviaGraphic.RoomJoin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TriviaGraphic"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="920"
+      Title="RoomJoin">
+
+    <Border 
+            Margin="10,10,10,10"
+            BorderThickness="1,1,1,1"
+            CornerRadius="25">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.000,0.0" StartPoint="1.200,1.20">
+                <GradientStop Color="#DDEFBB" Offset="0.0"/>
+                <GradientStop Color="#FFF" Offset="0.727"/>
+                <GradientStop Color="#FFEEEE" Offset="0.97"/>
+                <GradientStop Color="#FFF" Offset="0.467"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid HorizontalAlignment="Left" Height="105" Margin="9,19,0,0" VerticalAlignment="Top" Width="880">
+
+            <Grid Margin="150,125,150,-425">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Height="50" Width="250" Margin="165,100"/>
+                <ListBox x:Name="Players_List" BorderThickness="1" Margin="80,38,80,177" BorderBrush="#000000" Opacity="100"/>
+                <Label  FontWeight="Bold" FontSize="20" Content="Current Participants:" Height="35" Margin="80,3,10,367"   />
+                <Button BorderBrush="#FFF9E1E1" BorderThickness="3"  FontSize="20" Content="Leave Room" Height="45" Margin="210,265,210,0" VerticalAlignment="Top"  Background="White" FontWeight="Bold" Click="Button_Click"/>
+                <Button x:Name="WaitingAdmin" BorderBrush="#FFDDEFBB" BorderThickness="3"  FontSize="18" Content="" Height="45" Margin="150,325,150,0" VerticalAlignment="Top"  Background="White"/>
+            </Grid>
+            <Label x:Name="roomName" HorizontalContentAlignment="Center" Content="" Height="91" Margin="250,10,250,0" VerticalAlignment="Top" FontSize="50" FontWeight="Bold"/>
+
+        </Grid>
+
+
+
+    </Border>
+</Page>
